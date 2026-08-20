@@ -27,6 +27,6 @@ print()
 top_student = average_by_student.idxmax()
 print("Top student:", top_student)
 
-print("\n--- Highest Score in Each Subject ---")
+print("\n Highest Score in Each Subject ")
 max_scores = df.groupby('subject')['score'].max()
 print(max_scores)
